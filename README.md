@@ -2,8 +2,9 @@
 # MP-1 Olivia Hird Professional Portfolio
 
 This project will endeavour to present and reflect the work, ethos and acumen of Olivia Hird, a filmmaker and production manager for documentary film and festivals.
+
 * It will include:
-    * examples of previous work in video, image and essay formats,
+    * examples of previous work in video, image and essay formats
     * statement of intent and interests
     * details on her previous experience
     * social links
@@ -11,6 +12,6 @@ This project will endeavour to present and reflect the work, ethos and acumen of
 
 * It will serve to: 
     * direct traffic to articles already hosted around the web and articles not yet hosted elsewhere
-    * showcase directorial and editorial capability within produciton and the edit respectively
+    * showcase directorial and editorial capability within production and the edit respectively
     * detail organisational strengths accrued through festival work
     
