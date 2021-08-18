@@ -11,7 +11,7 @@
 
 #logo {
     font-family: "orpheuspro", "Lora", serif;
-    font-weight: 450;
+    font-weight: 420;
     font-size: 380%;
     display: inline;
     float: left;
@@ -19,7 +19,7 @@
 }
 
 #logo, #socials {
-    line-height: 90px;
+    line-height: 130px;
 }
 
 body {
@@ -35,16 +35,26 @@ a {
     margin-right: 30px;
 }
 
-#socials li {
+#socials>li {
 
     display: inline;
     float: right;
     font-size: 150%;
     padding-right: 30px;
 }
+
+#socials>li {
+    color: #495555;
+}
+
+#socials>li:hover {
+    text-shadow: 1px 1px #839D9A;
+}
+
 #nav-left {
     clear: left;
     display: inline/block;
+    width: 130px;
     margin-left: 30px;
     font-family: "orpheuspro", "Lora", serif;
     font-size: 2rem;
@@ -53,8 +63,13 @@ a {
 
 #nav-left li {
     list-style: none;
+    color: #495555;
+}
+
+#nav-left li:hover {
+    font-style: italic;
 }
 
 .active {
-    border-bottom: 2px solid #040f0f;
+    border-bottom: 1px solid #040f0f;
 }
