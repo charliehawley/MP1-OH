@@ -9,6 +9,10 @@
     background-color: #bfd2bf;
 }
 
+#oh-head {
+    color: red;
+}
+
 #logo {
     font-family: "orpheuspro", "Lora", serif;
     font-weight: 420;
@@ -53,8 +57,8 @@ a {
 
 #nav-left {
     clear: left;
-    display: inline/block;
-    width: 130px;
+    display: inline;
+    width: 20%;
     margin-left: 30px;
     font-family: "orpheuspro", "Lora", serif;
     font-size: 2rem;
@@ -72,4 +76,34 @@ a {
 
 .active {
     border-bottom: 1px solid #040f0f;
+}
+
+#body-index {
+    display: inline;
+    float: right;
+    margin: 100px;
+    padding: 30px;
+    /* border: 1px solid #b6dad5; */
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #a2b3a2,
+    -20px -20px 60px #dcf2dc;
+    width: 50%;
+    background-color: #bfd2bf;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+#oh-footer {
+    text-align: center;
+    display: fixed;
+    clear: both;
+    bottom: 0;
+}
+
+#oh-footer>li {
+    display: inline;
+    padding: 0 2%;
+    line-height: 2rem;
+    background-color: inherit;
+    letter-spacing: 2px;
 }
