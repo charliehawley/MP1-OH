@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Lora&family=Manrope:wght@200&display=swap');
+@import url("https://use.typekit.net/vke5pwt.css");
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+    color: #040f0f;
+    background-color: #bfd2bf;
 }
 
 h1 {
-    font-family: "Lora", serif;
+    font-family: "orpheuspro", serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Karla", "Verdana", sans-serif;
 }
