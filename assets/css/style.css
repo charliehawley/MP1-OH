@@ -9,17 +9,17 @@
     background-color: #bfd2bf;
 }
 
-header {
-    margin-top: 10px;
-}
-
 #logo {
-    font-family: "orpheuspro", serif;
-    font-weight: 400;
-    font-size: 280%;
+    font-family: "orpheuspro", "Lora", serif;
+    font-weight: 450;
+    font-size: 380%;
     display: inline;
     float: left;
     margin-left: 30px;
+}
+
+#logo, #socials {
+    line-height: 90px;
 }
 
 body {
@@ -36,9 +36,25 @@ a {
 }
 
 #socials li {
-    padding: 3px;
+
     display: inline;
     float: right;
-    font-size: 110%;
-    padding-right: 10px;
+    font-size: 150%;
+    padding-right: 30px;
+}
+#nav-left {
+    clear: left;
+    display: inline/block;
+    margin-left: 30px;
+    font-family: "orpheuspro", "Lora", serif;
+    font-size: 2rem;
+    line-height: 60px;
+}
+
+#nav-left li {
+    list-style: none;
+}
+
+.active {
+    border-bottom: 2px solid #040f0f;
 }
