@@ -74,15 +74,17 @@ a {
 
 /* Main */
 #body-index {
-    display: inline;
+    position: relative;
+    clear: right;
     float: right;
     margin: 200px;
+    margin-top: 130px;
     padding: 60px;
     /* border: 1px solid #b6dad5; */
     border-radius: 50px;
     box-shadow: inset 20px 20px 60px #a2b3a2,
-            inset -20px -20px 60px #dcf2dc;
-    width: 50%;
+                inset -20px -20px 60px #dcf2dc;
+    width: 80%;
     background-color: #bfd2bf;
     margin: 10px;
     font-family: "Karla", "Verdana", sans-serif;
@@ -102,5 +104,7 @@ a {
     padding: 0 2%;
     line-height: 2rem;
     background-color: inherit;
+    font-family: "Karla", "Verdana", sans-serif;
+    font-weight: 400;
     letter-spacing: 2px;
 }
