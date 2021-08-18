@@ -9,10 +9,6 @@
     background-color: #bfd2bf;
 }
 
-#oh-head {
-    color: red;
-}
-
 #logo {
     font-family: "orpheuspro", "Lora", serif;
     font-weight: 420;
@@ -40,7 +36,6 @@ a {
 }
 
 #socials>li {
-
     display: inline;
     float: right;
     font-size: 150%;
@@ -56,9 +51,11 @@ a {
 }
 
 #nav-left {
-    clear: left;
-    display: inline;
+    clear: both;
+    position: fixed;
+    float: left;
     width: 20%;
+    margin-top: 130px;
     margin-left: 30px;
     font-family: "orpheuspro", "Lora", serif;
     font-size: 2rem;
@@ -81,12 +78,12 @@ a {
 #body-index {
     display: inline;
     float: right;
-    margin: 100px;
-    padding: 30px;
+    margin: 200px;
+    padding: 60px;
     /* border: 1px solid #b6dad5; */
     border-radius: 50px;
-    box-shadow:  20px 20px 60px #a2b3a2,
-    -20px -20px 60px #dcf2dc;
+    box-shadow: inset 20px 20px 60px #a2b3a2,
+            inset -20px -20px 60px #dcf2dc;
     width: 50%;
     background-color: #bfd2bf;
     margin: 10px;
@@ -97,7 +94,6 @@ a {
     text-align: center;
     display: fixed;
     clear: both;
-    bottom: 0;
 }
 
 #oh-footer>li {
