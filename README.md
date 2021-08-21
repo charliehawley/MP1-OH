@@ -33,6 +33,13 @@ ___
 
 ### Strategy
 #### User stories
-- I am a documentary film festival producer and wish to gain an understanding of Olivia's past experience and potential therefore.
 
-- I am a documentary filmmaker looking for a camera operator. I want to see examples of Olivia's previous work to better understand her aesthetic and compositional strengths and tastes.
+- As the producer of a film festival, I wish to gain an understanding of Olivia's past experience and potential in order to properly consider her for the role of production manager/programmer/preselector.
+
+- As a documentary filmmaker, I would like to see examples of Olivia's previous work to better understand her aesthetic and compositional strength in camera work.
+
+- As the editor of an online film journal, I would like to verify that Olivia's writing is of the correct standard and quality to grant her request to write for us.
+
+- As the producer of a film festival, I would like to verify whether Olivia's previous film reviews and essays are of the correct standard to grant Olivia a press pass to our festival.
+
+- As a producer for a feature documentary 
