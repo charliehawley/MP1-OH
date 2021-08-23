@@ -28,6 +28,8 @@ Repository here -
 
 ![Figma outputs/hand drawn?](URL)
 
+![Reactive capabilities evidenced here](URL)
+
 ## UX
 ___
 
@@ -42,23 +44,77 @@ ___
 - As a documentary filmmaker, I would like to see examples of Olivia's previous work to better understand her aesthetic and compositional strength in camera work.
 
 - As the editor of an online film journal, I would like to verify that Olivia's writing is of the correct standard and quality to grant her request to write for us.
-
+___
 ### Strategy
 
-The fundamental aim for this website is to make Olivia's details available and her experience apparent as well as showcasing her acumen and drive as an individual through her personal work.
-
+The fundamental goal of this website is to make Olivia's details available and her experience apparent as well as showcasing her acumen and drive as an individual through her personal work.
+___
 ### Scope
 
-The minimum viable product for this project will necessitate:
+The minimum viable product for this project necessitates:
 
-* embedded videos (hosted remotely) which will populate a portfolio
+- embedded videos (hosted remotely) which populate a portfolio
 
-* contact details and a form to further facilitate correspondence
+- contact details and a form to further facilitate correspondence
 
-* links to essays and reviews (hosted remotely and locally) as well as links to social profiles
+- links to essays and reviews (hosted remotely and locally) as well as links to social profiles
 
-I would like to implement animations on the writing cards that show excerpts on hover.
+Animations are implemented on the Writing cards that show excerpts of the written work on hover.
 
+#### Future features
+
+I would also like to add a feature to allow users to switch between Factual and Personal work channels on the landing page video but this.
+___
 ### Structure
 
-Each webpage will feature a navigation bar fixed to the left. It will feature a landing page (Home), an About page with contact details and a form, a Portfolio page with videos of previous work and a short description and finally a Writing page which will contain links to reviews and essays.
+Each webpage features a navigation bar fixed to the left, a header fixed to the top and a footer, also fixed to the bottom to create a windowed effect and standardize the experience across all facets of the site. 
+
+___
+### Skeleton
+
+The user can navigate between four pages:
+- a landing page (Home) 
+- an About page with contact details and a form 
+- a Portfolio page with a video and short description for each project
+- a Writing page which will contain links to reviews and essays
+
+All pages can always be accessed from the fixed nav bar.
+
+Most common paths:
+- Home > About > Portfolio
+- Home > About > Writing
+- Home > Socials
+
+Contact details are included on every page so that a user never needs to interrupt the content they might be watching/reading to open a correspondence.
+
+___
+### Surface
+
+Color palette / contrast / italics on hover
+
+___
+## Technologies
+
+- HTML
+- CSS
+- Google Fonts
+- Youtube embed
+- Vimeo embed
+___
+## Testing
+
+
+___
+## Deployment
+
+
+___
+## Credits
+
+### Content
+
+### Media
+
+### Code
+
+### Acknowledgements
