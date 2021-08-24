@@ -102,6 +102,18 @@ a {
     text-align: left;
 }
 
+.portfolio-left {
+    display: inline;
+    float: left;
+    margin-left: 3%;
+    clear: left;
+}
+
+.main-window>iframe {
+    width: 32%;
+    height: 18%;
+}
+
 /* Footer */
 #oh-footer {
     text-align: center;
