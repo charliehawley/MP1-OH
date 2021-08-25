@@ -9,7 +9,7 @@
     background-color: #bfd2bf;
 }
 
-/* Header */
+/*------------------------  Header ------------------------ */
 #logo {
     display: inline;
     position: fixed;
@@ -32,11 +32,11 @@ a {
 #socials {
     position: fixed;
     margin: 0 0 0 85%;
+    width: 15%;
 }
 
 #socials>li {
     display: inline;
-    float: right;
     font-size: 150%;
     padding-right: 30px;
 }
@@ -49,7 +49,7 @@ a {
     text-shadow: 1px 1px #839D9A;
 }
 
-/* Nav bar */
+/*------------------------  Nav bar ------------------------ */
 #nav-left {
     clear: both;
     position: fixed;
@@ -75,7 +75,7 @@ a {
     border-bottom: 1px solid #040f0f;
 }
 
-/* Main */
+/*------------------------  Main ------------------------ */
 .main-window {
     position: relative;
     float: right;
@@ -98,6 +98,7 @@ a {
     width: 85%;
 }
 
+/*---------------------  Portfolio ---------------------- */
 #small-description {
     font-size: .75rem;
     text-align: left;
@@ -122,13 +123,16 @@ a {
     float: right;
     width: 50%;
     height: 25rem;
-    padding: 30px;
+    /* padding: 30px; */
+    padding-top: 35px;
 }
 
 .portfolio-description {
     display: inline;
     float: left;
     padding-top: 40px;
+    padding-left: 30px;
+    text-align: left;
 }
 
 .portfolio-left>iframe {
@@ -141,7 +145,46 @@ a {
                 10px 10px 30px #8E9C8E;
 }
 
-/* Footer */
+.film-title {
+    font-size: 1.5rem;
+}
+
+.director {
+    font-size: 1.2rem;
+}
+
+.director:hover {
+    font-style: italic;
+}
+
+/*------------------------ Writing ----------------------- */
+
+.writing-card {
+    width: 400px;
+    height: inherit;
+    display: inline-block;
+    margin: 40px;
+}
+
+.writing-card>img {
+    width: 400px;
+    box-shadow: -10px -10px 30px #DCF2D0,
+                10px 10px 30px #8E9C8E;
+}
+
+.writing-card-left {
+
+}
+
+.writing-card-middle {
+
+}
+
+.writing-card-right {
+
+}
+
+/*------------------------  Footer ------------------------ */
 #oh-footer {
     text-align: center;
     position: fixed;
