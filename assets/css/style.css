@@ -6,6 +6,9 @@
     padding: 0;
     border: none;
     color: #040f0f;
+}
+
+body {
     background-color: #bfd2bf;
 }
 
@@ -19,6 +22,7 @@
     font-weight: 420;
     font-size: 380%;
     width: 85%;
+    
 }
 
 #logo, #socials {
@@ -108,10 +112,44 @@ a {
     padding-left: 12.5%;
 }
 
-/*---------------------  Portfolio ---------------------- */
+/*-----------------------  About ------------------------ */
+label {
+    font-family: "Karla", "Verdana", sans-serif;
+}
+
+#form {
+    position: absolute;
+    bottom: 100px;
+    left: 15%;
+}
+
+label {
+    display: block;
+    margin: 8px 0 3px;
+}
+
+input {
+    display: block;
+    border: 1px solid #8E9C8E;
+}
+
+select, textarea, button {
+    border: 1px solid #8E9C8E;
+}
+
 #about-copy {
     text-align: left;
 }
+#send {
+    display: inline;
+    padding: 5px;
+}
+
+#reset {
+    padding: 5px;
+}
+
+/*---------------------  Portfolio ---------------------- */
 
 .portfolio-left {
     display: inline;
