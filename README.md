@@ -90,7 +90,7 @@ Contact details are included on every page so that a user never needs to interru
 ___
 ### Surface
 
-Color palette / contrast / italics on hover
+Color palette / contrast / Google font / italics on hover / social links with drop shadow on hover / Writing cards / 
 
 ___
 ## Technologies
