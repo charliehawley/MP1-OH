@@ -95,16 +95,20 @@ a {
 }
 
 .main-window>video {
-    width: 85%;
+    margin-top: 30px;
+    width: 75%;
+    box-shadow: -10px -10px 30px #DCF2D0,
+                10px 10px 30px #8E9C8E;
+}
+
+#small-description {
+    margin-top: 30px;
+    font-size: .75rem;
+    text-align: left;
+    padding-left: 12.5%;
 }
 
 /*---------------------  Portfolio ---------------------- */
-#small-description {
-    font-size: .75rem;
-    text-align: left;
-    padding-left: 8%;
-}
-
 #about-copy {
     text-align: left;
 }
@@ -161,15 +165,35 @@ a {
 
 .writing-card {
     width: 400px;
-    height: inherit;
+    height: 365px;
+    border: 1px solid #3b4746;
     display: inline-block;
     margin: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -10px -10px 30px #DCF2D0,
+    10px 10px 30px #8E9C8E;
+    text-align: left;
 }
 
-.writing-card>img {
+.writing-card:hover {
+
+}
+
+.writing-card>a>h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+.writing-card>a>img {
+    border-radius: 4px 4px 0 0;
     width: 400px;
-    box-shadow: -10px -10px 30px #DCF2D0,
-                10px 10px 30px #8E9C8E;
+}
+
+.writing-card>p {
+    margin: 5px;
+    background-color: #fff;
 }
 
 .writing-card-left {
