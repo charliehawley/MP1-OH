@@ -166,46 +166,73 @@ a {
 .writing-card {
     width: 400px;
     height: 365px;
-    border: 1px solid #3b4746;
+    /* border: 1px solid #3b4746; */
     display: inline-block;
-    margin: 40px;
-    background-color: #fff;
+    position: absolute;
+    margin: 100px 30px;
+    background-color: #F4FFDB;
     border-radius: 5px;
-    box-shadow: -10px -10px 30px #DCF2D0,
+    box-shadow: -10px -10px 30px #8E9C8E,
     10px 10px 30px #8E9C8E;
     text-align: left;
 }
 
-.writing-card:hover {
-
+.writing-card-left:hover {
+    transform: translateY(10px);
+    z-index: 2;
 }
+
+.writing-card-middle:hover {
+    transform: translateY(10px);
+    z-index: 2;
+}
+
+.writing-card-right:hover {
+    transform: translateY(10px);
+    z-index: 2;
+}
+
+/* #yni-popup {
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+    position: absolute;
+} */
 
 .writing-card>a>h3 {
     margin-top: 10px;
     margin-left: 10px;
-    background-color: #fff;
+    background-color: #F4FFDB;
+}
+
+.writing-card>a>h3>em {
+    background-color: #F4FFDB;
 }
 
 .writing-card>a>img {
-    border-radius: 4px 4px 0 0;
+    border-radius: 5px 5px 0 0;
     width: 400px;
+    z-index: -2;
+}
+
+hr {
+    border-bottom: 3px solid rgba(255, 255, 255, .5) ;
 }
 
 .writing-card>p {
-    margin: 5px;
-    background-color: #fff;
+    margin: 10px;
+    background-color: #F4FFDB;
 }
 
 .writing-card-left {
-
+    left: 16%;
 }
 
 .writing-card-middle {
-
+    left: 32%;
 }
 
 .writing-card-right {
-
+    left: 48%;
 }
 
 /*------------------------  Footer ------------------------ */
