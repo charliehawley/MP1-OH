@@ -303,6 +303,8 @@ hr {
 @media screen and (max-width: 950px) {
     #logo {
         width: 100%;
+        margin: 0;
+        padding-left: 30px;
     }
 
     #socials {
@@ -333,7 +335,38 @@ hr {
     }
 
     .main-window {
-        width: 100%;
+        width: 90%;
+        margin: 160px 5%;
+    }
+
+    .main-window>video {
+        width: 80%;
+        height: 100%;
+        margin: 0 10px 0;
+        border: none;
+        padding: 0;
+    }
+
+    #form {
+        display: block;
+        position: relative;
+        clear: both;
+        margin: 1%;
+        left: 1%;
+    }
+
+    #message {
+        max-width: 90%;
+    }
+
+    .portfolio-left {
+        width: 90%;
+        height: 30%;
+        padding: 10px;
+    }
+
+    .portfolio-left>iframe {
+        max-height: 30%;
     }
 
     #oh-footer {
