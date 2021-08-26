@@ -21,12 +21,12 @@ body {
     font-family: "orpheuspro", "Lora", serif;
     font-weight: 420;
     font-size: 380%;
-    width: 85%;
-    
+    width: 65%;
 }
 
 #logo, #socials {
     line-height: 130px;
+    background-color: #bfd2bf;
 }
 
 a {
@@ -35,8 +35,8 @@ a {
 
 #socials {
     position: fixed;
-    margin: 0 0 0 85%;
-    width: 15%;
+    margin: 0 35% 0 75%;
+    width: 35%;
 }
 
 #socials>li {
@@ -210,7 +210,7 @@ select, textarea, button {
     height: 365px;
     /* border: 1px solid #3b4746; */
     display: inline-block;
-    position: absolute;
+    position: relative;
     margin: 100px 30px;
     background-color: #F4FFDB;
     border-radius: 5px;
@@ -265,17 +265,17 @@ hr {
     background-color: #F4FFDB;
 }
 
-.writing-card-left {
-    left: 16%;
+/* .writing-card-left {
+    left: 5%;
 }
 
 .writing-card-middle {
-    left: 32%;
+    left: 35%;
 }
 
 .writing-card-right {
-    left: 48%;
-}
+    right: 5%;
+} */
 
 /*------------------------  Footer ------------------------ */
 #oh-footer {
@@ -286,6 +286,7 @@ hr {
     display: block;
     width: 100%;
     height: 5%;
+    background-color: #bfd2bf;
 }
 
 #oh-footer>li {
@@ -296,4 +297,57 @@ hr {
     font-weight: 400;
     letter-spacing: 2px;
     display: inline;
+}
+
+/*-------------------- Media Queries -------------------- */
+@media screen and (max-width: 950px) {
+    #logo {
+        width: 100%;
+    }
+
+    #socials {
+        bottom: 0;
+        line-height: 1rem;
+        z-index: 1;
+        margin: 0 35% 3% 65%;
+        display: inline;
+    }
+
+    #socials>li {
+        padding: 0 10px 0;
+        font-size: 1rem;
+        display: inline;
+    }
+    
+    #nav-left {
+        font-size: 1.5rem;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    #nav-left li {
+        display: inline;
+        clear: none;
+        padding-left: 5px;
+    }
+
+    .main-window {
+        width: 100%;
+    }
+
+    #oh-footer {
+        margin-bottom: 1%;
+        padding: 2px;
+        text-align: left;
+        position: fixed;
+
+    }
+
+    #oh-footer>li {
+        display: inline-block;
+        font-size: 80%;
+        padding: 0 10px;
+        line-height: 1rem;
+    }
 }
