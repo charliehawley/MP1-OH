@@ -317,7 +317,11 @@ hr {
         position: relative;
         clear: both;
         margin: 1%;
-        left: 1%;
+        left: 3%;
+        max-width: 75%;
+        box-shadow: -10px -10px 10px #DCF2D0,
+                    10px 10px 10px #8E9C8E;
+        font-size: 1.4rem;
     }
 
     #message {
