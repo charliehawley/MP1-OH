@@ -21,7 +21,7 @@ body {
     font-family: "orpheuspro", "Lora", serif;
     font-weight: 420;
     font-size: 380%;
-    width: 65%;
+    width: 75%;
 }
 
 #logo, #socials {
@@ -155,21 +155,19 @@ select, textarea, button {
 
 /*---------------------  Portfolio ---------------------- */
 
-.portfolio-left {
-    display: inline;
+.left {
     float: left;
+}
+
+.right {
+    float: right;
+}
+
+.portfolio {
+    display: inline;
     width: 50%;
     height: 25rem;
     padding: 10px;
-    padding-top: 35px;
-}
-
-.portfolio-right {
-    display: inline;
-    float: right;
-    width: 50%;
-    height: 25rem;
-    /* padding: 30px; */
     padding-top: 35px;
 }
 
@@ -181,12 +179,7 @@ select, textarea, button {
     text-align: left;
 }
 
-.portfolio-left>iframe {
-    box-shadow: -10px -10px 30px #DCF2D0,
-                10px 10px 30px #8E9C8E;
-}
-
-.portfolio-right>iframe {
+.portfolio>iframe {
     box-shadow: -10px -10px 30px #DCF2D0,
                 10px 10px 30px #8E9C8E;
 }
@@ -219,26 +212,10 @@ select, textarea, button {
     text-align: left;
 }
 
-.writing-card-left:hover {
+.writing-card:hover {
     transform: translateY(10px);
     z-index: 2;
 }
-
-.writing-card-middle:hover {
-    transform: translateY(10px);
-    z-index: 2;
-}
-
-.writing-card-right:hover {
-    transform: translateY(10px);
-    z-index: 2;
-}
-
-/* #yni-popup {
-    background-color: rgba(255, 255, 255, 0.5);
-    z-index: -1;
-    position: absolute;
-} */
 
 .writing-card>a>h3 {
     margin-top: 10px;
@@ -264,18 +241,6 @@ hr {
     margin: 10px;
     background-color: #F4FFDB;
 }
-
-/* .writing-card-left {
-    left: 5%;
-}
-
-.writing-card-middle {
-    left: 35%;
-}
-
-.writing-card-right {
-    right: 5%;
-} */
 
 /*------------------------  Footer ------------------------ */
 #oh-footer {
@@ -359,14 +324,29 @@ hr {
         max-width: 90%;
     }
 
-    .portfolio-left {
+    .portfolio {
         width: 90%;
         height: 30%;
         padding: 10px;
     }
 
-    .portfolio-left>iframe {
+    .portfolio>iframe {
         max-height: 30%;
+        max-width: 300px;
+        box-shadow: -10px -10px 10px #DCF2D0,
+                    10px 10px 10px #8E9C8E;
+    }
+
+    .portfolio-description {
+        padding: 10px 0 30px 5%;
+    }
+
+    .left {
+        float: none;
+    }
+
+    .right {
+        float: none;
     }
 
     #oh-footer {
