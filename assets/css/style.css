@@ -13,6 +13,10 @@ body {
 }
 
 /*------------------------  Header ------------------------ */
+header {
+    height: 130px;
+}
+
 #logo {
     display: inline;
     position: fixed;
@@ -54,13 +58,21 @@ a {
 }
 
 /*------------------------  Nav bar ------------------------ */
+nav {
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    display: inline;
+    margin-left: 30px;
+}
+
 #nav-left {
     clear: both;
     position: fixed;
-    float: left;
-    width: 10%;
-    margin-top: 130px;
-    margin-left: 30px;
+    /* float: left; */
+    /* width: 10%; */
+    /* margin-top: 130px; */
+    /* margin-left: 30px; */
     font-family: "orpheuspro", "Lora", serif;
     font-size: 2rem;
     line-height: 60px;
@@ -82,10 +94,10 @@ a {
 /*------------------------  Main ------------------------ */
 .main-window {
     position: relative;
-    float: right;
-    margin-top: 130px;
-    margin-left: 15%;
-    margin-right: 5%;
+    /* float: right; */
+    /* margin-top: 130px; */
+    margin-left: 200px;
+    margin-right: 10px%;
     margin-bottom: 100px;
     width: 80%;
     height: 100%;
@@ -106,6 +118,7 @@ a {
 
 .main-window>img {
     display: none;
+    margin-top: 30px;
     width: 90%;
 }
 
@@ -129,7 +142,7 @@ label {
 #form {
     position: absolute;
     display: inline;
-    bottom: 100px;
+    bottom: 20%;
     left: 15%;
     padding: 30px;
     box-shadow: -10px -10px 30px #DCF2D0,
@@ -153,6 +166,7 @@ select, textarea, button {
 
 #about-copy {
     text-align: left;
+    padding: 10px;
 }
 #send {
     display: inline;
@@ -280,10 +294,6 @@ select, textarea, button {
 }
 
 @media screen and (max-width: 1100px) {
-    .main-window {
-
-    }
-
     #about-copy {
         max-height: 180px;
         overflow-y: scroll;
@@ -291,6 +301,10 @@ select, textarea, button {
 }
 
 @media screen and (max-width: 650px) {
+    header {
+        height: 100px;
+    }
+
     #logo {
         width: 100%;
         margin: 0;
@@ -310,12 +324,16 @@ select, textarea, button {
         font-size: 1rem;
         display: inline;
     }
+
+    nav {
+        height: 35px;
+    }
     
     #nav-left {
         font-size: 1.5rem;
         line-height: 20px;
         width: 100%;
-        margin-top: 100px;
+        /* margin-top: 100px; */
     }
 
     #nav-left li {
@@ -326,7 +344,7 @@ select, textarea, button {
 
     .main-window {
         width: 90%;
-        margin: 160px 5%;
+        margin: 5%;
     }
 
     .main-window>video {
@@ -348,7 +366,7 @@ select, textarea, button {
     }
 
     #desktop {
-        visibility: hidden;
+        display: none;
     }
 
     #mobile{
