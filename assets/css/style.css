@@ -214,7 +214,7 @@ select, textarea, button {
     /* border: 1px solid #3b4746; */
     display: inline-block;
     position: relative;
-    margin: 100px 30px;
+    margin: 30px;
     background-color: #F4FFDB;
     border-radius: 5px;
     box-shadow: -10px -10px 30px #8E9C8E,
@@ -241,10 +241,6 @@ select, textarea, button {
     border-radius: 5px 5px 0 0;
     width: 400px;
     z-index: -2;
-}
-
-hr {
-    border-bottom: 3px solid rgba(255, 255, 255, .5) ;
 }
 
 .writing-card>p {
@@ -280,10 +276,6 @@ hr {
         position: fixed;
         margin: 0 35% 0 75%;
         width: 35%;
-    }
-
-    .writing-card {
-        margin: 50px;
     }
 }
 
@@ -407,7 +399,19 @@ hr {
 }
 
 @media screen and (max-height: 700px) {
+    #nav-left {
+        max-width: 90%;
+    }
+
+    #nav-left li{
+        font-size: 1.25rem;
+    }
+
     #oh-footer {
         padding-bottom: 3%;
+    }
+
+    #socials {
+        display: none;
     }
 }
