@@ -125,6 +125,7 @@ label {
     padding: 30px;
     box-shadow: -10px -10px 30px #DCF2D0,
                 10px 10px 30px #8E9C8E;
+    z-index: -1;
 }
 
 label {
