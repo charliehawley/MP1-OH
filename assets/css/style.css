@@ -87,7 +87,6 @@ a {
     margin-left: 15%;
     margin-right: 5%;
     margin-bottom: 100px;
-    /* border: 1px solid #000; */
     width: 80%;
     height: 100%;
     background-color: #bfd2bf;
@@ -105,11 +104,21 @@ a {
                 10px 10px 30px #8E9C8E;
 }
 
-#small-description {
+.main-window>img {
+    display: none;
+    width: 90%;
+}
+
+.small-description {
+    display: block;
     margin-top: 30px;
     font-size: .75rem;
     text-align: left;
     padding-left: 12.5%;
+}
+
+#mobile {
+    display: none;
 }
 
 /*-----------------------  About ------------------------ */
@@ -306,10 +315,23 @@ hr {
     }
 
     .main-window>video {
-        width: 80%;
-        margin: 0 10px 0;
-        border: none;
-        padding: 0;
+        display: none;
+    }
+
+    .main-window>img {
+        display: inline;
+    }
+
+    .small-description {
+        padding-left: 6%;
+    }
+
+    #desktop {
+        visibility: hidden;
+    }
+
+    #mobile{
+        display: block;
     }
 
     #form {
