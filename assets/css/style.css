@@ -113,6 +113,10 @@ nav {
     z-index: -1;
 }
 
+.writing-main {
+    margin: 140px 10px 100px 200px;
+}
+
 .main-window>video {
     margin-top: 60px;
     /* float: left; */
@@ -254,7 +258,7 @@ select, textarea, button {
 
 .writing-card {
     width: 400px;
-    height: 365px;
+    /* height: 365px; */
     /* border: 1px solid #3b4746; */
     display: inline-block;
     position: relative;
@@ -457,6 +461,10 @@ footer {
         float: none;
     }
 
+    .writing-main {
+        margin-top: 160px;
+    }
+
     .writing-card {
         width: 90%;
         margin: 10px;
@@ -464,10 +472,6 @@ footer {
 
     .writing-card img {
         max-width: 100%;
-    }
-
-    #writing-card-top {
-        margin-top: 35px;
     }
 
     /* #spacer {
