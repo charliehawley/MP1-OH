@@ -371,24 +371,11 @@ footer {
 
     #socials {
         display: none;
-        /* bottom: 0;
-        line-height: 1rem;
-        margin: 0 33% 0 67%;
-        display: inline;
-        height: 6%;
-        width: 33%;
-        background-color: rgba(0, 0, 0, 0); */
     }
-
-    /* #socials>li {
-        padding: 0 8px 0;
-        font-size: 1rem;
-        display: inline;
-    } */
 
     nav {
         height: 35px;
-        margin: 0;
+        margin: 100px 30px;
     }
     
     #nav-left {
@@ -468,6 +455,10 @@ footer {
 
     .writing-card img {
         max-width: 100%;
+    }
+
+    #writing-card-top {
+        margin-top: 60px;
     }
 
     #oh-footer {
