@@ -52,7 +52,7 @@ header {
 
 #socials>li {
     display: inline;
-    /* font-size: 150%; */
+    font-size: 1.5rem;
     padding-right: 30px;
 }
 
@@ -77,10 +77,6 @@ nav {
 #nav-left {
     clear: both;
     position: fixed;
-    /* float: left; */
-    /* width: 10%; */
-    /* margin-top: 130px; */
-    /* margin-left: 30px; */
     font-family: "orpheuspro", "Lora", serif;
     font-size: 2rem;
     line-height: 60px;
@@ -102,11 +98,11 @@ nav {
 /*------------------------  Main ------------------------ */
 .main-window {
     position: absolute;
-    /* float: right; */
-    margin-top: 130px;
+    margin: 130px 10px 100px 200px;
+    /* margin-top: 130px;
     margin-left: 200px;
-    margin-right: 10px%;
-    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-bottom: 100px; */
     width: 80%;
     height: 100%;
     background-color: #bfd2bf;
@@ -234,6 +230,7 @@ select, textarea, button {
     padding-top: 40px;
     padding-left: 30px;
     text-align: left;
+    max-width: 45%;
 }
 
 .portfolio>iframe {
@@ -295,6 +292,10 @@ select, textarea, button {
     background-color: #F4FFDB;
 }
 
+#bottom-element {
+    margin-bottom: 80px;
+}
+
 /*------------------------  Footer ------------------------ */
 footer {
     position: fixed;
@@ -341,6 +342,11 @@ footer {
         position: fixed;
         margin: 0 35% 0 75%;
         width: 35%;
+    }
+
+    .portfolio-description {
+        display: inline-block;
+        word-wrap: break-word;
     }
 }
 
@@ -464,9 +470,13 @@ footer {
         margin-top: 35px;
     }
 
-    #writing-card-bottom {
-        margin-bottom: 80px;
-    }
+    /* #spacer {
+        display: block;
+        position: absolute;
+        height: 30px;
+        width: 100%;
+        bottom: 0;
+    } */
 
     #oh-footer {
         padding: 2px;
