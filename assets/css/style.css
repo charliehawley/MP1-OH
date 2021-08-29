@@ -402,6 +402,9 @@ footer {
 
     .main-window>img {
         display: inline;
+        margin-top: 35px;
+        box-shadow: -10px -10px 30px #8E9C8E,
+                    10px 10px 30px #8E9C8E;
     }
 
     .main-window iframe {
@@ -423,7 +426,7 @@ footer {
     }
 
     form {
-        margin: auto auto 80px;
+        margin: 30px auto 80px;
         font-size: 1.4rem;
     }
 
@@ -458,7 +461,11 @@ footer {
     }
 
     #writing-card-top {
-        margin-top: 60px;
+        margin-top: 35px;
+    }
+
+    #writing-card-bottom {
+        margin-bottom: 80px;
     }
 
     #oh-footer {
