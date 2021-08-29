@@ -5,11 +5,19 @@
     margin: 0;
     padding: 0;
     border: none;
-    color: #040f0f;
 }
 
 body {
+    color: #040f0f;
     background-color: #bfd2bf;
+}
+
+a:any-link {
+    color: #040f0f;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*------------------------  Header ------------------------ */
@@ -33,10 +41,6 @@ header {
     line-height: 130px;
     height: 130px;
     background-color: #bfd2bf;
-}
-
-a {
-    text-decoration: none;
 }
 
 #socials {
@@ -113,9 +117,9 @@ nav {
 }
 
 .main-window>video {
-    margin-top: 30px;
+    margin-top: 60px;
     /* float: left; */
-    margin: auto;
+    /* margin: auto; */
     width: 75%;
     box-shadow: -10px -10px 30px #DCF2D0,
                 10px 10px 30px #8E9C8E;
@@ -123,7 +127,7 @@ nav {
 
 .main-window>img {
     display: none;
-    margin-top: 8vw;
+    margin-top: 60px;
     width: 90%;
 }
 
@@ -326,14 +330,14 @@ select, textarea, button {
         bottom: 0;
         line-height: 1rem;
         z-index: 1;
-        margin: 0 35% 3% 65%;
+        margin: 0 30% 3% 70%;
         display: inline;
-        height: 20px;
+        height: 30px;
         background-color: rgba(0, 0, 0, 0);
     }
 
     #socials>li {
-        padding: 0 10px 0;
+        padding: 0 8px 0;
         font-size: 1rem;
         display: inline;
     }
@@ -357,7 +361,7 @@ select, textarea, button {
 
     .main-window {
         width: 90%;
-        margin: 5%;
+        margin-left: 5%;
     }
 
     .main-window>video {
@@ -436,6 +440,7 @@ select, textarea, button {
         padding: 2px;
         text-align: left;
         position: fixed;
+        width: 67%;
     }
 
     #oh-footer>li {
@@ -460,7 +465,7 @@ select, textarea, button {
     }
 
     #socials {
-        display: none;
+        /* display: none; */
         height: 30px;
         line-height: 30px;
     }
