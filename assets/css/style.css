@@ -23,7 +23,7 @@ a {
 /*------------------------  Header ------------------------ */
 header {
     position: fixed;
-    height: 130px;
+    height: 100px;
     width: 85%;
 }
 
@@ -39,8 +39,8 @@ header {
 }
 
 #logo, #socials {
-    line-height: 130px;
-    height: 130px;
+    line-height: 100px;
+    height: 100px;
     background-color: #bfd2bf;
 }
 
@@ -78,12 +78,12 @@ nav {
     clear: both;
     position: fixed;
     font-family: "orpheuspro", "Lora", serif;
-    font-size: 2rem;
     line-height: 60px;
 }
 
 #nav-left li {
     list-style: none;
+    font-size: 2rem;
     color: #495555;
 }
 
@@ -114,10 +114,10 @@ nav {
 }
 
 .main-window>video {
-    margin-top: 60px;
-    width: 75%;
-    box-shadow: -10px -10px 30px #DCF2D0,
-                10px 10px 30px #8E9C8E;
+    /* margin-top: 5px; */
+    width: 70%;
+    box-shadow: -10px -10px 15px #DCF2D0,
+                10px 10px 15px #8E9C8E;
 }
 
 .main-window>img {
@@ -130,10 +130,10 @@ nav {
     display: block;
     position: relative;
     clear: left;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: .75rem;
     text-align: left;
-    margin-left: 10vw;
+    margin-left: 12vw;
 }
 
 #mobile {
@@ -304,7 +304,10 @@ iframe {
     background-color: #F4FFDB;
 }
 
-#bottom-element {
+.bottom-element {
+    clear: left;
+    display: block;
+    height: 50px;
     margin-bottom: 80px;
 }
 
@@ -400,19 +403,22 @@ footer {
     /*---------- MQ Nav ---------- */
     nav {
         height: 35px;
-        margin: 100px 30px;
+        width: 100%;
+        margin: 100px 0;
+        padding-left: 30px;
+        background-color: #bfd2bf;
     }
     
     #nav-left {
         font-size: 1.5rem;
         line-height: 20px;
         width: 100%;
-        /* margin-top: 100px; */
     }
 
     #nav-left li {
         display: inline;
         clear: none;
+        font-size: 1.5rem;
         padding-left: 5px;
     }
 

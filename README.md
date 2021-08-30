@@ -90,7 +90,7 @@ Contact details are included on every page so that a user never needs to interru
 ___
 ### Surface
 
-Color palette / contrast / Google font / italics on hover / social links with drop shadow on hover / Writing cards / 
+Color palette / contrast / Google font / italics on hover / social links with drop shadow on hover / Writing cards / Neumorphism w/credit
 
 ___
 ## Technologies
@@ -98,6 +98,7 @@ ___
 - HTML
 - CSS
 - Google Fonts
+- Adobe Fonts
 - Youtube embed
 - Vimeo embed
 ___
@@ -110,6 +111,9 @@ ___
 
 ___
 ## Credits
+Neumorphism
+W3 Schools
+MDN
 
 ### Content
 
