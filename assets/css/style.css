@@ -115,8 +115,6 @@ nav {
 
 .main-window>video {
     margin-top: 60px;
-    /* float: left; */
-    /* margin: auto; */
     width: 75%;
     box-shadow: -10px -10px 30px #DCF2D0,
                 10px 10px 30px #8E9C8E;
@@ -149,8 +147,8 @@ label {
 
 form {
     margin: 30px 40% 0 0px;
-    max-width: 90%;
-    padding-left: 10px;
+    max-width: 458px;
+    padding: 15px;
     padding-bottom: 50px;
     box-shadow: -10px -10px 30px #DCF2D0,
                 10px 10px 30px #8E9C8E;
@@ -167,8 +165,19 @@ input {
     display: block;
     float: left;
     clear: left;
-    margin-right: 5px;
+    margin-right: 10px;
     border: 1px solid #8E9C8E;
+    width: 100%;
+    height: 30px;
+}
+
+#send {
+    width: 60px;
+}
+
+#reset {
+    height: 30px;
+    width: 60px;
 }
 
 select {
@@ -248,6 +257,11 @@ select, textarea, button {
 
 .director:hover {
     font-style: italic;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
 }
 
 /*------------------------ Writing ----------------------- */
@@ -336,20 +350,42 @@ footer {
 }
 
 /*-------------------- Media Queries -------------------- */
-@media screen and (min-width: 420px) and (max-width: 1200px) {
+
+/*------------- MQ Laptops ------------- */
+@media screen and (min-width: 420px) and (max-width: 1250px) {
     #socials {
         position: fixed;
         margin: 0 35% 0 75%;
         width: 35%;
     }
+    
+    .portfolio {
+        margin: 30px 0;
+        width: 90%;
+        height: 50%;
+        padding: 10px;
+    }
 
     .portfolio-description {
-        display: inline-block;
-        word-wrap: break-word;
+        padding: 30px 0 30px 5%;
+        float: none;
+    }
+
+    .portfolio-description p {
+        margin: 0 20px;
+        max-width: 90%;
     }
 }
 
+@media screen and (max-width: 800px) {
+    header {
+        width: 85%-30px;
+    }
+}
+
+/*------------- MQ iPhone X ------------- */
 @media screen and (max-width: 650px) {
+    /*--------- MQ Header --------- */
     header {
         height: 100px;
         width: 100%;
@@ -367,6 +403,7 @@ footer {
         display: none;
     }
 
+    /*---------- MQ Nav ---------- */
     nav {
         height: 35px;
         margin: 100px 30px;
@@ -385,6 +422,7 @@ footer {
         padding-left: 5px;
     }
 
+    /*---------- MQ Main ---------- */
     .main-window {
         width: 90%;
         margin-left: 5%;
@@ -419,11 +457,13 @@ footer {
         display: block;
     }
 
+    /*--------- MQ About --------- */
     form {
         margin: 30px auto 80px;
         font-size: 1.4rem;
     }
 
+    /*------- MQ Portfolio ------- */
     .portfolio {
         width: 90%;
         height: 30%;
@@ -451,6 +491,7 @@ footer {
         float: none;
     }
 
+    /*--------- MQ Writing --------- */
     .writing-main {
         margin-top: 160px;
     }
@@ -464,6 +505,7 @@ footer {
         max-width: 100%;
     }
 
+    /*--------- MQ Footer --------- */
     #oh-footer {
         padding: 2px;
         text-align: left;
@@ -485,7 +527,12 @@ footer {
     }
 }
 
+/*------------- MQ iPhone 6/7/8 ------------- */
 @media screen and (max-height: 700px) {
+    #logo {
+        font-size: 3.5rem;
+    }
+
     #nav-left {
         max-width: 90%;
     }
