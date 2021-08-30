@@ -26,9 +26,15 @@ Repository here -
 
 ### Wireframes
 
-![Figma outputs/hand drawn?](URL)
+![Index wireframe](https://i.imgur.com/dk1WVoC.jpg)
 
-![Reactive capabilities evidenced here](URL)
+![About wireframe](https://i.imgur.com/4Aj6BKf.jpg)
+
+![Portfolio wireframe](https://i.imgur.com/Oq5I2cY.jpg)
+
+![Writing wireframe](https://i.imgur.com/onIDxyy.jpg)
+
+![Reactive capabilities evidenced here](https://i.imgur.com/zxu8Olb.jpg)
 
 ## UX
 ___
