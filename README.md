@@ -20,9 +20,9 @@ This in turn will enable Olivia to direct prospective employers towards her work
 ## Demo
 _______
 
-Deployed here -
+Deployed here - https://charliehawley.github.io/MP1-OH/
 
-Repository here -
+Repository here - https://github.com/charliehawley/MP1-OH
 
 ### Wireframes
 
@@ -96,10 +96,17 @@ Contact details are included on every page so that a user never needs to interru
 ___
 ### Surface
 
-Color palette / contrast / Google font / italics on hover / social links with drop shadow on hover / Writing cards / Neumorphism w/credit
+The site employs a minimal windowed layout where many elements employ shadows to give the impression of 'floating' just off the background. 
+
+The video on the Index page, the form on the About page and the iframes on the Portfolio page in particular, are formatted with a box shadow arrangement that characterises Neumorphism which nurtures a sense of style within minimalism (links to articles used to inform the use of Neumorphism in [Credits](#credits) below).
+
+All anchor elements on the website (with the exception of the logo) react to mouse hover to demonstrate their interactivity and encourage engagement. 
+- All nav elements italicize on hover as do links to production house sites and imdb profiles. 
+- All review/writing cards transform through the y axis on hover. 
+- All social icons gain a drop shadow on hover.
 
 ___
-## Technologies
+## Technologies Included
 
 - HTML
 - CSS
@@ -110,21 +117,51 @@ ___
 ___
 ## Testing
 
+The W3C Markup Validator tool and W3C CSS Validation Service were both used to test the validity of all html and css files in the project. All files passed with no errors found.
 
+The Web AIM Contrast Checker tool was used to develop the colour scheme for the website and helped to ensure that all text, graphics and objects passed a contrast check.
+
+All links in the website were manually tested to ensure they opened the correct desination and those that led to external sources opened in a new tab using the target="_blank" attribute.
+
+The form includes three required fields and will not submit without correctly formatted inputs.
+
+An email field is included which will fail if the input is not correctly formatted.
+
+All successful form submissions were tested using https://formdump.codeinstitute.net/ and all fields were recorded with accurate name attributes.
+
+The site was tested across many responsive scenarios using Google's dev tools (F12) and performed well in the following emulated environments:
+
+- iPhone X
+- iPhone 6/7/8
+- iPhone 5/SE
+- iPad
+- 3200 x 1700
+- 1920 x 1080
 ___
 ## Deployment
 
+The site is hosted on GitHub pages at the link above and will adapt whenever changes are made to the main branch.
 
+You can run this respository locally by running ```git clone https://github.com/charliehawley/MP1-OH.git``` in your terminal.
 ___
 ## Credits
-Neumorphism
-W3 Schools
-MDN
 
 ### Content
 
+All copy for the About page was written by Olivia Hird.
+
+All reviews and essays referenced on the writing page were written by Olivia Hird.
+
 ### Media
 
-### Code
+The video and image on the landing page (index.html) were created by Olivia Hird.
+
+All content on the Portfolio and Writing pages is intended for educational use and as such falls under fair use policy. All creators, producers and directors are credited and referenced appropriately.
 
 ### Acknowledgements
+
+Neumorphism article - https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6
+
+and generator - https://neumorphism.io/
+
+I consulted W3 Schools, MDN and Stack Overflow many times during the course of this project to inform the creation of cards, fixed elements, media queries and positional arguments/attributes.
