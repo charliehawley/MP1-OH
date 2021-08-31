@@ -34,6 +34,8 @@ Repository here - https://github.com/charliehawley/MP1-OH
 
 ![Writing wireframe](https://i.imgur.com/onIDxyy.jpg)
 
+### Reactive demo
+
 ![Reactive capabilities evidenced here](https://i.imgur.com/zxu8Olb.jpg)
 
 ## UX
@@ -140,9 +142,24 @@ The site was tested across many responsive scenarios using Google's dev tools (F
 ___
 ## Deployment
 
+The site was created using a versioning system integrated with GitHub via Gitpod.
+
 The site is hosted on GitHub pages at the link above and will adapt whenever changes are made to the main branch.
 
 You can run this respository locally by running ```git clone https://github.com/charliehawley/MP1-OH.git``` in your terminal.
+
+___
+## Known Bugs
+
+> BUG - nav bar appeared with no background revealing content scrolled behind.
+
+FIX - background color applied to element
+
+> BUG - on screens wider than 1700px, Early Morning, Early March iframe at the bottom of the Portfolio.html is partially obscured by footer.
+
+> BUG - on iPad mini and iPad pro, the body is wider than the viewport. Have combed for an element or margin wider than the viewport to no avail.
+
+> BUG - site does not adjust well to resolutions above 4K.
 ___
 ## Credits
 
