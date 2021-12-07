@@ -35,8 +35,9 @@ header {
     margin: 40px 0 0 60px;
     font-family: "new-spirit", "Lora", serif;
     font-weight: 500;
-    font-size: 250%;
+    font-size: 200%;
     width: 100%;
+    text-transform: lowercase;
 }
 
 #logo, #socials {
@@ -72,7 +73,7 @@ nav {
     height: 300px;
     display: inline;
     margin-left: 60px;
-    margin-top: 150px;
+    margin-top: 135px;
     border-right: 5px 5px #fff;
 }
 
@@ -82,6 +83,7 @@ nav {
     font-family: "darkmode-on", "Lora", serif;
     font-weight: 300;
     line-height: 40px;
+    text-transform: lowercase;
 }
 
 #nav-left li {
@@ -242,6 +244,10 @@ select, textarea, button {
     line-height: 20px;
 }
 
+#sel-ex li {
+    list-style: none;
+}
+
 #send {
     display: inline;
     padding: 5px;
@@ -300,7 +306,7 @@ iframe {
 .writing-card {
     overflow: hidden;
     object-fit: cover;
-    width: 340px;
+    width: 30%;
     height: 400px;
     display: inline-block;
     position: relative;
@@ -332,7 +338,7 @@ iframe {
 
 .writing-card>a>img {
     border-radius: 5px 5px 0 0;
-    width: 340px;
+    width: 100%;
     z-index: -2;
 }
 
