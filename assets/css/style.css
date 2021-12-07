@@ -305,15 +305,14 @@ iframe {
 
 .writing-card {
     overflow: hidden;
-    object-fit: cover;
     width: 30%;
-    height: 400px;
+    height: 280px;
     display: inline-block;
     position: relative;
     margin: 30px 10px;
-    /* background-color: #F4FFDB; */
+    background-color: #fff;
     border-radius: 5px;
-    /* border: 5px solid #040f0f; */
+    /* border: 1px solid #030303; */
     text-align: left;
 }
 
@@ -321,19 +320,26 @@ iframe {
     margin-left: 40px;
 }
 
-.writing-card:hover {
-    transform: translateY(10px);
+.writing-text {
+    padding: 10px;
+    z-index: -1;
+    position: absolute;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.writing-text:hover {
     z-index: 2;
 }
 
 .writing-card>a>h3 {
     margin-top: 10px;
     margin-left: 10px;
-    background-color: #F4FFDB;
+    /* background-color: #F4FFDB; */
 }
 
 .writing-card>a>h3>em {
-    background-color: #F4FFDB;
+    /* background-color: #F4FFDB; */
 }
 
 .writing-card>a>img {
@@ -344,7 +350,7 @@ iframe {
 
 .writing-card>p {
     margin: 10px;
-    background-color: #F4FFDB;
+    /* background-color: #F4FFDB; */
 }
 
 .bottom-element {
