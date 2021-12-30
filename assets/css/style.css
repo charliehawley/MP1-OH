@@ -54,7 +54,7 @@ header {
 
 #socials>li {
     display: inline;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-right: 30px;
 }
 
@@ -314,6 +314,11 @@ iframe {
     border-radius: 5px;
     /* border: 1px solid #030303; */
     text-align: left;
+    font-family: 'darkmode-on';
+}
+
+.writing-card h3{
+    font-weight: 400;
 }
 
 .writing-card-left {
@@ -384,7 +389,7 @@ ul#oh-footer {
 #oh-footer>li {
     padding: 0 2%;
     line-height: 2rem;
-    font-family: "Karla", "Verdana", sans-serif;
+    font-family: "new-spirit", "Verdana", sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     display: inline;
