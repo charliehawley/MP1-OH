@@ -267,15 +267,7 @@ select, textarea, button {
     float: right;
 }
 
-.portfolio {
-    display: inline;
-    width: 50%;
-    height: 25rem;
-    padding: 10px;
-    padding-top: 35px;
-}
-
-.portfolio-description {
+.portfolio-desc {
     display: inline;
     float: left;
     padding-top: 40px;
@@ -285,7 +277,7 @@ select, textarea, button {
 }
 
 .film-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .director {
@@ -298,7 +290,7 @@ select, textarea, button {
 .writing-card {
     overflow: hidden;
     width: 30%;
-    height: 280px;
+    height: fit-content;
     display: inline-block;
     position: relative;
     margin: 30px 10px;
@@ -313,10 +305,11 @@ select, textarea, button {
     margin-left: 285px;
 }
 
-.writing-card h3{
+.film-title {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.5rem;
     text-align: center;
+    margin: 10px;
 }
 
 .writing-card-left {
@@ -328,8 +321,8 @@ select, textarea, button {
     z-index: -1;
     position: absolute;
     top: 0;
-    width: 95%;
-    height: 280px;
+    width: 96%;
+    height: 207px;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -421,23 +414,6 @@ ul#oh-footer {
         position: fixed;
         margin: 0 35% 0 75%;
         width: 35%;
-    }
-    
-    .portfolio {
-        margin: 30px 0;
-        width: 90%;
-        height: 50%;
-        padding: 10px;
-    }
-
-    .portfolio-description {
-        padding: 30px 0 30px 5%;
-        float: none;
-    }
-
-    .portfolio-description p {
-        margin: 0 20px;
-        max-width: 90%;
     }
 }
 
@@ -555,7 +531,7 @@ ul#oh-footer {
 
     .writing-card {
         width: 90%;
-        height: 208px;
+        height: fit-content;
         margin: 10px;
     }
 
