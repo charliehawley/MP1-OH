@@ -54,7 +54,7 @@ header {
 
 #socials>li {
     display: inline;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-right: 30px;
 }
 
@@ -312,8 +312,19 @@ iframe {
     margin: 30px 10px;
     background-color: #fff;
     border-radius: 5px;
-    /* border: 1px solid #030303; */
+    /* border: 10px solid #000; */
     text-align: left;
+    font-family: 'darkmode-on';
+}
+
+.writing-main {
+    margin-left: 285px;
+}
+
+.writing-card h3{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
 }
 
 .writing-card-left {
@@ -324,12 +335,19 @@ iframe {
     padding: 10px;
     z-index: -1;
     position: absolute;
+    top: 0;
     width: 95%;
+    height: 280px;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.writing-text:hover {
+.writing-text p {
+    padding: 20px;
+}
+
+.writing-card:hover  .writing-text{
     z-index: 2;
+    /* transform: translateY(-50%) */
 }
 
 .writing-card>a>h3 {
@@ -384,7 +402,7 @@ ul#oh-footer {
 #oh-footer>li {
     padding: 0 2%;
     line-height: 2rem;
-    font-family: "Karla", "Verdana", sans-serif;
+    font-family: "darkmode-on", "Verdana", sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     display: inline;
@@ -457,7 +475,7 @@ ul#oh-footer {
         width: 100%;
         margin: 100px 0;
         padding-left: 30px;
-        /* background-color: #bfd2bf; */
+        background-color: #FBFAED;
     }
     
     #nav-left {
@@ -486,8 +504,6 @@ ul#oh-footer {
     .main-window>img {
         display: inline;
         margin-top: 35px;
-        box-shadow: -10px -10px 30px #8E9C8E,
-                    10px 10px 30px #8E9C8E;
     }
 
     .main-window iframe {
@@ -509,9 +525,9 @@ ul#oh-footer {
     }
 
     /*--------- MQ About --------- */
-    form {
-        margin: 30px auto 80px;
-        font-size: 1.4rem;
+    #about-copy, #sel-ex {
+        width: 90%;
+        margin-left: 0;
     }
 
     /*------- MQ Portfolio ------- */
@@ -524,8 +540,6 @@ ul#oh-footer {
     .portfolio>iframe {
         max-height: 30%;
         max-width: 300px;
-        box-shadow: -10px -10px 10px #DCF2D0,
-                    10px 10px 10px #8E9C8E;
     }
 
     .portfolio-description {
@@ -549,6 +563,7 @@ ul#oh-footer {
 
     .writing-card {
         width: 90%;
+        height: 208px;
         margin: 10px;
     }
 
