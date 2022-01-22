@@ -475,7 +475,7 @@ ul#oh-footer {
         width: 100%;
         margin: 100px 0;
         padding-left: 30px;
-        /* background-color: #bfd2bf; */
+        background-color: #FBFAED;
     }
     
     #nav-left {
@@ -525,9 +525,9 @@ ul#oh-footer {
     }
 
     /*--------- MQ About --------- */
-    form {
-        margin: 30px auto 80px;
-        font-size: 1.4rem;
+    #about-copy, #sel-ex {
+        width: 90%;
+        margin-left: 0;
     }
 
     /*------- MQ Portfolio ------- */
@@ -563,6 +563,7 @@ ul#oh-footer {
 
     .writing-card {
         width: 90%;
+        height: 208px;
         margin: 10px;
     }
 
