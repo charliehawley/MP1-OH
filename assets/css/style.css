@@ -286,17 +286,12 @@ select, textarea, button {
 
 .film-title {
     font-size: 1.5rem;
-    z-index: 2;
 }
 
 .director {
     font-size: 1.2rem;
-    z-index: -1;
 }
 
-.director:hover {
-    font-style: italic;
-}
 
 /*------------------------ Writing ----------------------- */
 
