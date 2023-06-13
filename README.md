@@ -182,3 +182,6 @@ Neumorphism article - https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3
 and generator - https://neumorphism.io/
 
 I consulted W3 Schools, MDN and Stack Overflow many times during the course of this project to inform the creation of cards, fixed elements, media queries and positional arguments/attributes.
+
+### Note
+Should switch hosting from cpanel to hostinger for value

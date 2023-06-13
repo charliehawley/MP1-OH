@@ -326,8 +326,9 @@ hr {
 
 #review {
     text-align: center;
+    max-width: 100%;
     width: 90%;
-    height: 90%;
+    height: 90%; 
     scroll-behavior: smooth;
 }
 
