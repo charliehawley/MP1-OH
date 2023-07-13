@@ -108,7 +108,7 @@ nav {
     width: 70%;
     height: 100%;
     /* background-color: #bfd2bf; */
-    font-family: "darkmode-on", "Verdana", sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     text-align: center;
@@ -206,7 +206,7 @@ select, textarea, button {
 } */
 
 #about-copy > h2 {
-    font-family: 'new-spirit';
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 1rem;
     text-decoration: underline;
     font-weight: 200;
