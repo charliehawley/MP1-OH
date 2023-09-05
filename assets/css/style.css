@@ -227,6 +227,10 @@ select, textarea, button {
     padding: 10px;
 }
 
+.writing-link:hover {
+    font-style: italic;
+}
+
 #sel-ex {
     margin-left: 70px;
     display: inline-block;
