@@ -53,6 +53,10 @@ header {
     width: 35%;
 }
 
+#socials>ul {
+    margin-top: 40px;
+}
+
 #socials>li {
     display: inline;
     font-size: 1.3rem;
@@ -205,7 +209,7 @@ select, textarea, button {
     border: 1px solid #8E9C8E;
 } */
 
-#about-copy > h2 {
+.about-copy > h2 {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 1rem;
     text-decoration: underline;
@@ -214,7 +218,7 @@ select, textarea, button {
     text-align: right;
 }
 
-#about-copy {
+.about-copy {
     display: inline-block;
     width: 40%;
     font-size: .9rem;
@@ -422,7 +426,7 @@ ul#oh-footer {
 @media screen and (min-width: 420px) and (max-width: 1250px) {
     #socials {
         position: fixed;
-        margin: 0 35% 0 75%;
+        margin: 40px 35% 0 75%;
         width: 35%;
     }
 }
