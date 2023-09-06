@@ -232,12 +232,12 @@ select, textarea, button {
     border: 1px solid #8E9C8E;
 } */
 
-.about-copy > h2 {
+.about-copy > * h2, .about-copy > h2 {
     font-family: 
         'Bergen Sans Semi Bold', 
         'Helvetica Neue', sans-serif;
     font-size: 1rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-weight: 200;
     margin-bottom: 10px;
     text-align: right;
@@ -252,8 +252,22 @@ select, textarea, button {
     padding: 10px;
 }
 
+.about-entry {
+    margin-top: 23.5%;
+}
+
+#about-email {
+    text-align: right;
+}
+
+/* .writing-link {
+    color: blue !important;
+} */
+
 .writing-link:hover {
+    text-decoration: none;
     font-style: italic;
+    text-decoration: underline;
 }
 
 #sel-ex {
