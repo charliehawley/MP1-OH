@@ -1,5 +1,15 @@
 @import url("https://use.typekit.net/vke5pwt.css");
 
+@font-face {
+    font-family: 'Bergen Sans';
+    src: url('BergenSans.eot');
+    src: local('Bergen Sans'), local('BergenSans'),
+        url('../font/BergenSans.woff2') format('woff2'),
+        url('../font/BergenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +44,7 @@ header {
     position: fixed;
     float: left;
     margin: 40px 0 0 60px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Bergen Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 200%;
     width: 50%;
