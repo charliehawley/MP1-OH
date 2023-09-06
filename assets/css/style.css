@@ -128,13 +128,13 @@ nav {
 
 /*------------------------  Main ------------------------ */
 .main-window {
-    position: absolute;
-    margin: 140px 10px 100px 300px;
+    position: absolute;    
+    margin: 140px 12% 100px 18%;
     width: 70%;
     height: 100%;
     /* background-color: #bfd2bf; */
     font-family: 
-        'Bergen Sans', 
+        /* 'Bergen Sans',  */
         'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 1rem;
