@@ -10,6 +10,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Bergen Sans Semi Bold';
+    src: local('Bergen Sans Semi Bold'), local('BergenSansSemiBold'),
+        url('../font/BergenSans-SemiBold.woff2') format('woff2'),
+        url('../font/BergenSans-SemiBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +53,7 @@ header {
     position: fixed;
     float: left;
     margin: 40px 0 0 60px;
-    font-family: 'Bergen Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Bergen Sans Semi Bold', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 200%;
     width: 50%;
@@ -95,7 +104,9 @@ nav {
 #nav-left {
     clear: both;
     position: fixed;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 
+        'Bergen Sans', 
+        'Helvetica Neue', sans-serif;
     font-weight: 300;
     line-height: 40px;
     text-transform: lowercase;
@@ -122,7 +133,9 @@ nav {
     width: 70%;
     height: 100%;
     /* background-color: #bfd2bf; */
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 
+        'Bergen Sans', 
+        'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     text-align: center;
@@ -220,7 +233,9 @@ select, textarea, button {
 } */
 
 .about-copy > h2 {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 
+        'Bergen Sans Semi Bold', 
+        'Helvetica Neue', sans-serif;
     font-size: 1rem;
     text-decoration: underline;
     font-weight: 200;
@@ -252,7 +267,9 @@ select, textarea, button {
 }
 
 #sel-ex > h2 {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 
+        'Bergen Sans Semi Bold', 
+        'Helvetica Neue', sans-serif;
     font-size: 1rem;
     text-decoration: underline;
     font-weight: 200;
@@ -415,7 +432,9 @@ ul#oh-footer {
 #oh-footer>li {
     padding: 0 2%;
     line-height: 2rem;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 
+        'Bergen Sans', 
+        'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     display: inline;
