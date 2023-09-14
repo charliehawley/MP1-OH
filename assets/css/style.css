@@ -232,18 +232,28 @@ select, textarea, button {
     border: 1px solid #8E9C8E;
 } */
 
-.about-copy > * h2, .about-copy > h2 {
+#about-sections {
+    position: relative;
+}
+
+#about-copy > * h2, #about-copy-left * h2 {
     font-family: 
         'Bergen Sans Semi Bold', 
         'Helvetica Neue', sans-serif;
     font-size: 1rem;
-    /* text-decoration: underline; */
+    /* text-decoration: none !important; */
     font-weight: 200;
     margin-bottom: 10px;
     text-align: right;
 }
 
-.about-copy {
+#about-copy-left {
+    position: absolute;
+    left: 0;
+}
+
+#about-copy, #about-copy-left {
+    position: absolute;
     display: inline-block;
     width: 40%;
     font-size: .9rem;
