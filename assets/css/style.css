@@ -564,9 +564,11 @@ ul#oh-footer {
     }
 
     /*--------- MQ About --------- */
-    #about-copy, #sel-ex {
+    #about-copy, #about-copy-left, #sel-ex {
         width: 90%;
         margin-left: 0;
+        position: relative;
+        display: block;
     }
 
     /*------- MQ Portfolio ------- */
