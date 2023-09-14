@@ -263,11 +263,19 @@ select, textarea, button {
 }
 
 .about-entry {
-    margin-top: 23.5%;
+    margin-top: 3.5%;
 }
 
 #about-email {
     text-align: right;
+}
+
+#about-img {
+    margin-bottom: 20px;
+    width: 100%;
+    /* border: #000 1px solid; */
+    /* box-shadow:  
+    5px 5px 10px #908f8f */
 }
 
 /* .writing-link {
