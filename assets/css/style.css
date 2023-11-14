@@ -30,6 +30,7 @@ body {
     background-color: #FBFAED;
     letter-spacing: 1px;
     scroll-behavior: smooth;
+    font-size: 0.8rem;
 }
 
 a:any-link {
@@ -68,7 +69,7 @@ header {
 
 #socials {
     /* position: fixed; */
-    margin: 40px 60px 0 85%;
+    margin: 40px 40px 0 90%;
     width: 35%;
 }
 
@@ -78,8 +79,8 @@ header {
 
 #socials>li {
     display: inline;
-    font-size: 1.3rem;
-    padding-right: 30px;
+    font-size: 1rem;
+    /* padding-right: 10px; */
 }
 
 #socials>li {
@@ -137,7 +138,7 @@ nav {
         /* 'Bergen Sans',  */
         'Helvetica Neue', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-align: center;
     z-index: -1;
 }
@@ -240,7 +241,7 @@ select, textarea, button {
     font-family: 
         'Bergen Sans Semi Bold', 
         'Helvetica Neue', sans-serif;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     /* text-decoration: none !important; */
     font-weight: 200;
     margin-bottom: 10px;
@@ -252,11 +253,22 @@ select, textarea, button {
     left: 0;
 }
 
-#about-copy, #about-copy-left {
+#about-copy-left {
     position: absolute;
     display: inline-block;
-    width: 40%;
-    font-size: .9rem;
+    width: 60%;
+    /* font-size: .9rem; */
+    text-align: justify;
+    line-height: 20px;
+    padding: 10px;
+}
+
+#about-copy {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    width: 30%;
+    /* font-size: .9rem; */
     text-align: justify;
     line-height: 20px;
     padding: 10px;
@@ -271,8 +283,8 @@ select, textarea, button {
 }
 
 #about-img {
-    margin-bottom: 20px;
-    width: 100%;
+    margin: 0px 0 20px 30px;
+    width: 90%;
     /* border: #000 1px solid; */
     /* box-shadow:  
     5px 5px 10px #908f8f */
@@ -292,7 +304,7 @@ select, textarea, button {
     margin-left: 70px;
     display: inline-block;
     width: 30%;
-    font-size: .8rem;
+    /* font-size: .8rem; */
     text-align: justify;
     line-height: 15px;
     padding: 10px;
@@ -302,7 +314,7 @@ select, textarea, button {
     font-family: 
         'Bergen Sans Semi Bold', 
         'Helvetica Neue', sans-serif;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-decoration: underline;
     font-weight: 200;
     margin-bottom: 10px;
@@ -314,14 +326,18 @@ select, textarea, button {
     list-style: none;
 }
 
-#send {
+#edu {
+    /* font-size: 1rem; */
+}
+
+/* #send {
     display: inline;
     padding: 5px;
 }
 
 #reset {
     padding: 5px;
-}
+} */
 
 /*---------------------  Portfolio ---------------------- */
 
