@@ -35,14 +35,19 @@
         <div id="nav-left">
             <ul>
                 <li>
-                    <a class="active" href="#">Home</a>
+                    <a class="active" href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="about.html">About</a>
                 </li>
-                <!-- <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li> -->
+                <li onclick="toggleMenu()">Films</li>                    
+                <!-- The dropdown content -->
+                <div class="nav-links">
+                    <!-- Dropdown items -->
+                    <a href="tfopg.html" class="nav-link">The Friends of Parsonage Gardens</a>
+                    <a href="intertidal.html" class="nav-link">Intertidal</a>
+                    <a href="on-reflection.html" class="nav-link">On Reflection</a>
+                </div>
                 <!-- <li>
                     <a href="writing.html">Writing</a>
                 </li> -->
@@ -55,7 +60,7 @@
         <div class="main-window">
             <video src="assets/video/EMEM.mp4" title="Early Morning, Early March by Olivia Hird" aria-labelledby="desktop" autoplay muted loop></video>
             <p class="small-description" id="desktop"><em>Early Morning, Early March</em>, 2021</p>
-            <img src="assets/images/EMEM-still-2.jpg" alt="still from Early Morning, Early March video by Olivia Hird" aria-labelledby="mobile">
+            <img id="home-image-hidden" src="assets/images/EMEM-still-2.jpg" alt="still from Early Morning, Early March video by Olivia Hird" aria-labelledby="mobile">
             <p class="small-description" id="mobile">Still from <em>Early Morning, Early March</em>, 2021</p>
         </div>
     </main>
@@ -63,8 +68,6 @@
     <!--Footer-->
     <footer>
         <ul id="oh-footer">
-            <!--<li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;oliviagracehird@gmail.com</li>-->
-            <!-- <li><i class="fas fa-mobile"></i>&nbsp;(+44) 07837579732</li> -->
         </ul>
         <ul id="socials-responsive">
             <li>
@@ -78,5 +81,12 @@
             </li>
         </ul>
     </footer>
+    <script>
+        // JavaScript function to toggle the burger menu
+        function toggleMenu() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = (navLinks.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
 </body>
 </html>

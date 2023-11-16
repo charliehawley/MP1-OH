@@ -102,7 +102,7 @@ nav {
     border-right: 5px 5px #fff;
 }
 
-#nav-left {
+#nav-left, .dropbtn {
     clear: both;
     position: fixed;
     font-family: 
@@ -113,18 +113,45 @@ nav {
     text-transform: lowercase;
 }
 
-#nav-left li {
+#nav-left li, .dropbtn {
     list-style: none;
     font-size: 1rem;
-    color: #495555;
 }
 
-#nav-left li:hover {
+#nav-left li:hover, .dropbtn:hover {
     font-style: italic;
 }
 
 .active {
     border-bottom: 1px solid #040f0f;
+}
+
+/* ------------ Dropdown ----------- */
+
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 1vh 0 0 1vw;
+    overflow: hidden;
+    text-align: left;
+    display: none; /* Initially hidden on all screen sizes */
+    font-family: 
+        'Helvetica Neue', sans-serif;
+    font-size: .7rem;
+    font-style: italic;
+}
+
+
+.nav-link {
+    display: block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav-link.show {
+    display: block;
 }
 
 /*------------------------  Main ------------------------ */
@@ -133,12 +160,10 @@ nav {
     margin: 140px 12% 100px 18%;
     width: 70%;
     height: 100%;
-    /* background-color: #bfd2bf; */
     font-family: 
         /* 'Bergen Sans',  */
         'Helvetica Neue', sans-serif;
     font-weight: 400;
-    /* font-size: 1rem; */
     text-align: center;
     z-index: -1;
 }
@@ -149,11 +174,9 @@ nav {
 
 .main-window>video {
     width: 70%;
-    /* box-shadow: -10px -10px 15px #DCF2D0,
-                10px 10px 15px #8E9C8E; */
 }
 
-.main-window>img {
+#home-image-hidden {
     display: none;
     margin-top: 60px;
     width: 90%;
@@ -175,77 +198,52 @@ nav {
 
 /*-----------------------  About ------------------------ */
 
-/* form {
-    margin: 30px 40% 0 0px;
-    max-width: 458px;
-    padding: 15px;
-    padding-bottom: 50px;
-    box-shadow: -10px -10px 30px #DCF2D0,
-                10px 10px 30px #8E9C8E;
-} */
-
-/* label {
-    font-family: "darkmode-on", "Verdana", sans-serif;
-    display: block;
-    float: left;
-    clear: left;
-    margin: 8px 0 3px;
-} */
-
-/* input {
-    display: block;
-    float: left;
-    clear: left;
-    margin-right: 10px;
-    border: 1px solid #8E9C8E;
-    width: 100%;
-    height: 30px;
-} */
-
-/* #send {
-    width: 60px;
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    width: 95%;
+    padding: 1vw;
 }
 
-#reset {
-    height: 30px;
-    width: 60px;
-}
-
-select {
-    display: block;
-    clear: left;
-}
-
-textarea {
-    display: block;
-    clear: left;
-}
-
-button {
-    float: left;
-}
-
-#message {
-    max-width: 90%;
-}
-
-select, textarea, button {
-    border: 1px solid #8E9C8E;
-} */
-
-#about-sections {
-    position: relative;
-}
-
-#about-copy > * h2, #about-copy-left * h2 {
-    font-family: 
-        'Bergen Sans Semi Bold', 
-        'Helvetica Neue', sans-serif;
-    /* font-size: 1rem; */
-    /* text-decoration: none !important; */
+.about-container > div > h2 {
     font-weight: 200;
     margin-bottom: 10px;
     text-align: right;
+    font-family: 
+        'Bergen Sans Semi Bold', 
+        'Helvetica Neue', sans-serif;
+}
+
+.about-div-left {
+    display: inline-block;
+    width: 60%;
+    padding-right: 10px;
+}
+
+.about-div-right {
+    display: inline-block;
+    width: 35%;
+}
+
+#about-copy {
+    line-height: 3vh;
+}
+
+#about-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mob-space {
+    display: block;
+}
+
+#about-sections {
+    position: relative;
 }
 
 #about-copy-left {
@@ -257,18 +255,6 @@ select, textarea, button {
     position: absolute;
     display: inline-block;
     width: 60%;
-    /* font-size: .9rem; */
-    text-align: justify;
-    line-height: 20px;
-    padding: 10px;
-}
-
-#about-copy {
-    position: absolute;
-    right: 0;
-    display: inline-block;
-    width: 30%;
-    /* font-size: .9rem; */
     text-align: justify;
     line-height: 20px;
     padding: 10px;
@@ -283,183 +269,73 @@ select, textarea, button {
 }
 
 #about-img {
-    margin: 0px 0 20px 30px;
+    margin: 0px 0 10px 30px;
     width: 90%;
-    /* border: #000 1px solid; */
-    /* box-shadow:  
-    5px 5px 10px #908f8f */
 }
 
-/* .writing-link {
-    color: blue !important;
-} */
+/*---------------------  Films ---------------------- */
 
-.writing-link:hover {
-    text-decoration: none;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-#sel-ex {
-    margin-left: 70px;
-    display: inline-block;
-    width: 30%;
-    /* font-size: .8rem; */
-    text-align: justify;
-    line-height: 15px;
-    padding: 10px;
-}
-
-#sel-ex > h2 {
+#film-page {
     font-family: 
         'Bergen Sans Semi Bold', 
         'Helvetica Neue', sans-serif;
-    /* font-size: 1rem; */
-    text-decoration: underline;
-    font-weight: 200;
-    margin-bottom: 10px;
-    text-align: right;
-    line-height: 20px;
-}
-
-#sel-ex li {
-    list-style: none;
-}
-
-#edu {
-    /* font-size: 1rem; */
-}
-
-/* #send {
-    display: inline;
-    padding: 5px;
-}
-
-#reset {
-    padding: 5px;
-} */
-
-/*---------------------  Portfolio ---------------------- */
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-.portfolio-desc {
-    display: inline;
-    float: left;
-    padding-top: 40px;
-    padding-left: 30px;
-    text-align: left;
-    max-width: 45%;
-}
-
-hr {
-    color: #000;
-}
-
-/*------------------------ Writing ----------------------- */
-
-.writing-card {
-    overflow: hidden;
-    width: 30%;
-    height: fit-content;
-    display: inline-block;
-    position: relative;
-    margin: 30px 10px;
-    text-align: left;
-    border-radius: 4px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    font-family: 'darkmode-on';
-    box-shadow: 3px 3px #bbb;
-}
-
-.writing-main {
-    margin-left: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .film-title {
-    font-weight: 500;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.directed-by {
+    padding-top: 1vh;
+}
+
+.video-excerpt-container {
+    padding: 4vh 0 2vh 0;
+    width: 100%;
+}
+
+.video-excerpt {
+    height: 30vw;
+    width: 75%;
+}
+
+.video-description {
+    width: 100%;
+}
+
+.film-copy {
+    font-family: 'Helvetica Neue', sans-serif;;
     font-size: 1rem;
+    padding: 2vh 0;
+    width: 75%;
+    line-height: 3vh;
+    text-align: justify;
+}
+
+.screenings-title {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.screenings-copy {
     text-align: center;
-    margin: 10px;
+    /* letter-spacing: 2px; */
 }
 
-.writing-card-left {
-    margin-left: 40px;
+.stills{
+    width: 75%;
+    height: auto;
+    padding: 2vh 0;
 }
 
-.writing-text {
-    padding: 10px;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    width: 96%;
-    height: 207px;
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
-.writing-text p {
-    padding: 20px;
-}
-
-.writing-card:hover  .writing-text{
-    z-index: 2;
-    /* transform: translateY(-50%) */
-}
-
-.writing-card>a>h3 {
-    margin-top: 10px;
-    margin-left: 10px;
-    /* background-color: #F4FFDB; */
-}
-
-.writing-card>a>h3>em {
-    /* background-color: #F4FFDB; */
-}
-
-.writing-card>a>img {
-    margin: 5% 0 0 5%;
-    border-radius: 5px 5px 0 0;
-    width: 90%;
-    z-index: -1;
-}
-
-.writing-card>p {
-    margin: 10px;
-    /* background-color: #F4FFDB; */
-}
-
-.bottom-element {
-    clear: left;
-    display: block;
-    height: 50px;
-    margin-bottom: 80px;
-}
-
-/*------------------------  Review ------------------------ */
-
-.review-main {
-    text-align: center;
-    height: 85%;
-}
-
-#review {
-    text-align: center;
-    width: 90%;
-    height: 90%;
-    scroll-behavior: smooth;
-}
 
 /*------------------------  Footer ------------------------ */
 footer {
     position: fixed;
-    display: block;
+    display: none;
     bottom: 0;
     width: 100%;
     height: 5vh;
@@ -467,6 +343,7 @@ footer {
 }
 
 #oh-footer {
+    display: none;
     text-align: center;
     clear: both;
     bottom: 0;
@@ -485,7 +362,7 @@ ul#oh-footer {
         'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
-    display: inline;
+    display: none;
 }
 
 #socials-responsive {
@@ -501,19 +378,57 @@ ul#oh-footer {
     line-height: 2.5rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------- Media Queries -------------------- */
 
 /*------------- MQ Laptops ------------- */
 @media screen and (min-width: 420px) and (max-width: 1250px) {
-    #socials {
+    /* #socials {
         position: fixed;
         margin: 40px 35% 0 75%;
         width: 35%;
-    }
+    } */
 }
 
 /*------------- MQ iPhone X ------------- */
 @media screen and (max-width: 650px) {
+    
+    .about-container {
+        display: block;
+    }
+
+    #mob-space {
+        display: none;
+    }
+
+    #about-img {
+        margin: 0;
+        padding-top: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-container > .about-div-left, .about-container > .about-div-right {
+        display: block;
+        width: 100%;
+    }
+
     /*--------- MQ Header --------- */
     header {
         height: 100px;
@@ -554,17 +469,33 @@ ul#oh-footer {
         padding-left: 5px;
     }
 
+    .nav-link {
+        font-size: 1.2rem;
+        padding-top: 2vh;
+    }
+
+    .nav-links {
+        background-color: #FBFAED;
+        padding: 3vh;
+        width: 50vw;
+    }
+
+    .film-title {
+        font-size: 1.5rem;
+    }
+
     /*---------- MQ Main ---------- */
     .main-window {
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .main-window>video {
         display: none;
     }
 
-    .main-window>img {
+    #home-image-hidden {
         display: inline;
         margin-top: 35px;
     }
@@ -588,59 +519,47 @@ ul#oh-footer {
     }
 
     /*--------- MQ About --------- */
+
     #about-copy, #about-copy-left, #sel-ex {
-        width: 90%;
-        margin-left: 0;
+        width: 95%;
+        margin-left: 2.5%;
         position: relative;
         display: block;
     }
 
-    /*------- MQ Portfolio ------- */
-    .portfolio {
+    .about-div-right{
+        margin-top: 2vh;
+    }
+
+    /*------- MQ Films ------- */
+    #film-page {
+        width: 100%;
+    }
+
+    .film-copy {
         width: 90%;
-        height: 30%;
-        padding: 10px;
     }
 
-    .portfolio>iframe {
-        max-height: 30%;
-        max-width: 300px;
-    }
-
-    .portfolio-description {
-        padding: 10px 0 30px 5%;
-        float: none;
-    }
-
-    .portfolio-description p {
-        margin: 0 20px;
-        max-width: 90%;
-    }
-
-    .left, .right {
-        float: none;
-    }
-
-    /*--------- MQ Writing --------- */
-    .writing-main {
-        margin-top: 160px;
-    }
-
-    .writing-card {
+    .video-excerpt {
+        height: 50vw;
         width: 90%;
-        height: fit-content;
-        margin: 10px;
     }
 
-    .writing-card img {
-        max-width: 100%;
+    .stills {
+        width: 90%;
     }
 
     /*--------- MQ Footer --------- */
+
+    footer {
+        display: block;
+    }
+
     #oh-footer {
         padding: 2px;
         text-align: left;
         position: fixed;
+        display: block;
     }
 
     #oh-footer>li {

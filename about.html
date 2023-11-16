@@ -38,15 +38,20 @@
         <div id="nav-left">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="active" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a class="active" href="#">About</a>
+                    <a href="about.html">About</a>
                 </li>
+                <li onclick="toggleMenu()">Films</li>                    
+                <!-- The dropdown content -->
+                <div class="nav-links">
+                    <!-- Dropdown items -->
+                    <a href="tfopg.html" class="nav-link">The Friends of Parsonage Gardens</a>
+                    <a href="intertidal.html" class="nav-link">Intertidal</a>
+                    <a href="on-reflection.html" class="nav-link">On Reflection</a>
+                </div>
                 <!-- <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
                     <a href="writing.html">Writing</a>
                 </li> -->
             </ul>
@@ -56,87 +61,50 @@
     <!--About body text-->
     <main>
         <div class="main-window">
-            <div id="about-sections">
-                <div id="about-copy-left">
-                    <div>
-                        <h2>about</h2>
-                        <p>
-                            Olivia is a nonfiction filmmaker who produces sensitive, sensuous studies concerned with human nature and informed by methodologies of visual anthropology.
-                        </p>
-                        <br>
-                        <p>
-                            In her freelance career, Olivia has worked as a researcher, editor, cameraperson and assistant producer across feature films, shorts, television and charity films. Experience includes work with Dartmouth Films, RSA Films, Whalebone Films, BBC, Channel 4, ITV, Channel 5 and Save the Children.
-                        </p>
-                        <br>
-                        <p>
-                            Beyond film production, Olivia has also worked as Production Manager for Open City Documentary Festival (UCL), co-facilitated participatory visual storytelling workshops with Yarrow Films and been selected to participate in the HOME Artist Film Lab.
-                        </p>
-                        <br><br><br>
-                        <div>
-                            <h2>education</h2>
-                            <p id="edu">
-                                MA Visual Anthropology | University of Manchester, 2023 
-                                <br><br>
-                                BA Film Studies | King's College London, 2016
-        
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div id="about-copy">
-                    <div id="about-img-container">
-                        <img id="about-img" src="./assets/images/ogh_square.jpg" alt="Olivia Hird in a brown fleece on an overcast day.">
-                    </div>
+            <div class="about-container">
+                <div class="about-div-left" id="about-copy">
+                    <h2>about</h2>
+                    <p>
+                        Olivia is a nonfiction filmmaker who produces sensitive, sensuous studies concerned with human nature and informed by methodologies of visual anthropology.
+                    </p>
                     <br>
-                    <div class="about-entry">
-                        <h2>contact</h2>
-                        <p id="about-email">oliviagracehird@gmail.com</p>
-                    </div>
+                    <p>
+                        In her freelance career, Olivia has worked as a researcher, editor, cameraperson and assistant producer across feature films, shorts, television and charity films. Experience includes work with Dartmouth Films, RSA Films, Whalebone Films, BBC, Channel 4, ITV, Channel 5 and Save the Children.
+                    </p>
+                    <br>
+                    <p>
+                        Beyond film production, Olivia has also worked as Production Manager for Open City Documentary Festival (UCL), co-facilitated participatory visual storytelling workshops with Yarrow Films and been selected to participate in the HOME Artist Film Lab.
+                    </p>
+                </div>
+
+                <div class="about-div-right" id="about-img-container">
+                    <img id="about-img" src="./assets/images/ogh_square.jpg" alt="Olivia Hird in a brown fleece on an overcast day.">
                 </div>
             </div>
+            <br>
+            <div class="about-container">
+                <div class="about-div-left">
+                    <h2>education</h2>
+                    <p>
+                        MA Visual Anthropology | University of Manchester, 2023 
+                        <br><br>
+                        BA Film Studies | King's College London, 2016
 
-            <!-- <div class="about-entry">
-                <h2>writing</h2>
-                <p>
-                    <a class="writing-link" href="https://www.radicalartreview.org/post/cph-dox-reviewed-raising-a-school-shooter-by-frida-lasse-barkfors">review: Raising A School Shooter, Frida & Lasse Barkfors</a>
-                    <br>
-                    <br>
-                    <a class="writing-link" href="https://www.radicalartreview.org/post/">review: You & I, Fanny Chotimah</a>
-                </p>
-            </div> -->
-
-            <!--Contact Form-->
-
-            <!-- <form action="https://formdump.codeinstitute.net/" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="your@email.com" required>
-                
-                <label for="nature">Nature of inquiry:</label>
-                <select id="nature" name="nature">
-                    <option value="festival">Festival - programming/production</option>
-                    <option value="documentary">Documentary - research/production</option>
-                    <option value="commissions">Commissions</option>
-                    <option value="writing">Journalism/writing</option>
-                    <option value="other">Other</option>
-                </select>
-                <br>
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" cols="50" rows="10" placeholder="Take the opportunity to say hello!" required></textarea>
-                <br>
-                <input id="send" type="submit" value="Send">
-                <button id="reset" type="reset">Reset</button>
-            </form> -->
+                    </p>
+                </div>
+                <div class="about-div-right">
+                    <h2>contact</h2>
+                    <br id="mob-space">
+                    <p id="about-email">oliviagracehird@gmail.com</p>
+                </div>
+            </div>
+            <br><br><br><br><br>
         </div>
     </main>
 
     <!--Footer-->
     <footer>
         <ul id="oh-footer">
-            <!--<li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;oliviagracehird@gmail.com</li>-->
-            <!-- <li><i class="fas fa-mobile"></i>&nbsp;(+44) 07837579732</li> -->
         </ul>
         <ul id="socials-responsive">
             <li>
@@ -151,6 +119,13 @@
             </li>
         </ul>
     </footer>
+    <script>
+        // JavaScript function to toggle the burger menu
+        function toggleMenu() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = (navLinks.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
 </body>
 
 </html>

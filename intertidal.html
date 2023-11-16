@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="olivia hird, documentary, filmmaker, researcher, writer, reviews, films, film, hastings, st leonards, st leonards-on-sea, london, life in a day, open city, bank job, non-fiction, non fiction, production, filmmaking, producer, festival, cph dox, cph:dox">
+    <meta name="description" content="Freelancer in documentary film">
+    <script src="https://kit.fontawesome.com/08f84cbe07.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Olivia Hird | Home</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1 id="logo">
+            <a href="index.html">Olivia Hird</a>
+        </h1> 
+        <ul id="socials">
+            <li>
+                <a href="https://www.instagram.com/oliviahird/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://uk.linkedin.com/in/olivia-hird-883b26b7" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="mailto:oliviagracehird@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+            </li>
+        </ul>
+    </header>
+
+    
+    <!--Nav bar-->
+    <nav>
+        <div id="nav-left">
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li onclick="toggleMenu()">Films</li>                    
+                <!-- The dropdown content -->
+                <div class="nav-links">
+                    <!-- Dropdown items -->
+                    <a href="tfopg.html" class="nav-link">The Friends of Parsonage Gardens</a>
+                    <a href="intertidal.html" class="nav-link">Intertidal</a>
+                    <a href="on-reflection.html" class="nav-link">On Reflection</a>
+                </div>
+                <!-- <li>
+                    <a href="writing.html">Writing</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!--The Friends of Parsonage Gardens-->
+    <main>
+        <div class="main-window" id="film-page">
+            <h2 class="film-title">Intertidal</h2>
+            <p>2023 | 19 mins</p>
+            <p class="directed-by">Directed by Olivia Hird and Marina Espinach</p>
+
+            <div class="video-excerpt-container">
+                <iframe class="video-excerpt" src="https://www.youtube.com/embed/Msf87oyZqhQ?color=white&rel=0&showinfo=0" title="Intertidal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <p class="film-copy">Shot on the South East coast of England, Intertidal explores how the unstable realities of the ‘coast-line’ gives rise to mystical human and more-than-human encounters. Along the way, we meet fishermen, bait pumpers, a meteorologist, lugworms, molluscs, and the sea herself; the abiding associate of the local and the global.</p>
+            
+            <img class="stills" src="assets/images/feeja.png" alt="a screenshot of flowers overlayed">
+
+            <img class="stills" src="assets/images/sea.png" alt="a screenshot of flowers overlayed">
+
+            <img class="stills" src="assets/images/mussels.png" alt="a screenshot of flowers overlayed">
+
+            <img class="stills" src="assets/images/peter.png" alt="a screenshot of flowers overlayed">
+            <br><br><br><br><br>
+            <br><br><br><br><br>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <ul id="oh-footer">
+        </ul>
+        <ul id="socials-responsive">
+            <li>
+                <a href="https://www.instagram.com/oliviahird/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://uk.linkedin.com/in/olivia-hird-883b26b7" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="mailto:oliviagracehird@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script>
+        // JavaScript function to toggle the burger menu
+        function toggleMenu() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = (navLinks.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
