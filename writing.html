@@ -8,14 +8,15 @@
     <meta name="description" content="Freelancer in documentary film">
     <script src="https://kit.fontawesome.com/08f84cbe07.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Olivia Hird | Writing</title>
+    <link rel="icon" href="assets/images/ohFav32.png" type="image/png">
+    <title>Olivia Hird | Home</title>
 </head>
 <body>
     <!--Header-->
     <header>
         <h1 id="logo">
             <a href="index.html">Olivia Hird</a>
-        </h1>
+        </h1> 
         <ul id="socials">
             <li>
                 <a href="https://www.instagram.com/oliviahird/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -28,28 +29,37 @@
             </li>
         </ul>
     </header>
+
     
     <!--Nav bar-->
     <nav>
         <div id="nav-left">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="active" href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="about.html">About</a>
                 </li>
+                <li onclick="toggleMenu()">Portfolio</li>                    
+                <!-- The dropdown content -->
+                <div class="nav-links">
+                    <!-- Dropdown items -->
+                    <a href="tfopg.html" class="nav-link">The Friends of Parsonage Gardens</a>
+                    <a href="intertidal.html" class="nav-link">Intertidal</a>
+                    <a href="on-reflection.html" class="nav-link">On Reflection</a>
+                </div>
+                <li>
+                    <a href="experience.html">Experience</a>
+                </li>
                 <!-- <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li> -->
-                <!-- <li>
-                    <a class="active" href="#">Writing</a>
+                    <a href="writing.html">Writing</a>
                 </li> -->
             </ul>
         </div>
     </nav>
 
-    <!--Writing Cards-->
+    <!--The Friends of Parsonage Gardens-->
     <main>
         <div class="main-window writing-main">
             <div class="writing-card">
@@ -102,8 +112,6 @@
     <!--Footer-->
     <footer>
         <ul id="oh-footer">
-            <li><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;oliviagracehird@gmail.com</li>
-            <!-- <li><i class="fas fa-mobile"></i>&nbsp;(+44) 07837579732</li> -->
         </ul>
         <ul id="socials-responsive">
             <li>
@@ -117,5 +125,12 @@
             </li>
         </ul>
     </footer>
+    <script>
+        // JavaScript function to toggle the burger menu
+        function toggleMenu() {
+            var navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = (navLinks.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
 </body>
 </html>
