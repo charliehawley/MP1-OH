@@ -275,7 +275,7 @@ nav {
 
 /*---------------------  Films ---------------------- */
 
-#film-page {
+.film-page {
     font-family: 
         'Bergen Sans Semi Bold', 
         'Helvetica Neue', sans-serif;
@@ -331,6 +331,19 @@ nav {
     padding: 2vh 0;
 }
 
+
+/* ---------------------- Experience ---------------------- */
+
+.double-vid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.double-vid-wrapper {
+    flex-basis: 48%;
+    position: relative;
+}
 
 /*------------------------  Footer ------------------------ */
 footer {
