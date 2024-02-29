@@ -94,7 +94,7 @@ header {
 /*------------------------  Nav bar ------------------------ */
 nav {
     position: fixed;
-    width: 400px;
+    width: 100px;
     height: 300px;
     display: inline;
     margin-left: 60px;
@@ -341,8 +341,43 @@ nav {
 }
 
 .double-vid-wrapper {
-    flex-basis: 48%;
+    flex-basis: 50%;
     position: relative;
+    padding: 10px;
+}
+
+.double-vid-wrapper iframe {
+    width: 35vw;
+}
+
+.double-vid-wrapper img {
+    width: 35vw;
+    padding: 25px 0 25px 0;
+}
+
+h3 {
+    font-size: 5vh;
+}
+
+#exp-desc {
+    font-size: 2vh;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#exp-nav {
+    font-size: 3vh;
+    z-index: 1;
+}
+
+#exp-nav a:hover {
+    font-style: italic;
+}
+
+.exp-vid-desc {
+    font-family: 'Helvetiica Neue', sans-serif;
+    text-align: left;
+    font-size: 2vh;
+    padding-top: 5px;
 }
 
 /*------------------------  Footer ------------------------ */
