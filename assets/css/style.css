@@ -347,6 +347,10 @@ nav {
     margin-bottom: 20px;
 }
 
+.scroll {
+    scroll-margin-top: 145px;
+}
+
 .double-vid-wrapper {
     flex-basis: 45%;
     margin: 1% auto;
