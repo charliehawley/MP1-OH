@@ -318,7 +318,10 @@ nav {
 }
 
 .screenings-title {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 
+        'Bergen Sans Semi Bold', 
+        'Helvetica Neue', sans-serif;
+    font-size: 4vh;
 }
 
 .screenings-copy {
